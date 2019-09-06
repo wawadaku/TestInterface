@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.CognitiveServices.Speech;
+using System;
 
 namespace ConsoleGitTest
 {
@@ -7,6 +8,7 @@ namespace ConsoleGitTest
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            SpeechConfig.FromSubscription("YourSubscriptionKey", "YourServiceRegion");
             for (int i = 0; i <= 9; i++)
             {
                 for (int j = 1; j <= i; j++)
