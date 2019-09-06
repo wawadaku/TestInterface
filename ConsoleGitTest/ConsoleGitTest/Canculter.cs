@@ -7,5 +7,6 @@ namespace ConsoleGitTest
     class Canculter
     {
         public int num1;
+        
     }
 }
